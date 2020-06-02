@@ -1,6 +1,6 @@
 h1 {
 	border: 1px solid #d2cece;
-	color: black;	
+	color: #191970;	
 	font-size: 40px;
 	font-weight: bold;
 }
@@ -12,8 +12,9 @@ h1 {
 }
 
 .contacts {
-	vertical-align: super;
+	color: #000080;
 	margin-left: 5px;
+	vertical-align: super;
 }
 
 .flex {
@@ -29,17 +30,22 @@ h1 {
 
 
 .information-about-me {
-	background-color: pink;
+	background-color: #87CEFA;
 	border: 1px solid #d2cece;
 	border-radius: 10px;
-	color: purple;
+	color: #00008B;
 	font-size: 17px;
 	text-align: center;
 	width: 15%;
 }
 
+.grades{
+	font-size: 20px;
+}
+
 .languages {
 	border: 1px solid #d2cece;
+	color: #000080;
 	font-size: 20px;
 }
 
@@ -66,6 +72,7 @@ h1 {
 }
 	
 .programming-language {
+	color: #000080;
 	font-weight: bold;
 	text-align: left;
 }
@@ -76,7 +83,7 @@ h1 {
 }
 
 .skills-level {
-	background-color: blue;
+	background-color: #B0E0E6;
 	color: #ffffff;
 	font-size: 12px;
 	text-align: center;
@@ -84,15 +91,16 @@ h1 {
 }
 
 .skills-level-ok {
-	background-color: green;
+	background-color: #191970;
 	width: 60%;
 }
 
 .school {
-	background-color: yellow;
+	background-color: #87CEFA;
 	border: 1px solid #d2cece;
 	border-radius: 10px;
-	font-size: 16px;
+	color: #000080;
+	font-size: 15px;
 	width: 50%;
 }	
 	
@@ -101,9 +109,10 @@ h1 {
 }
 
 .what-i-learned {
-	background-color: orange;
+	background-color: #B0E0E6;
 	border: 1px solid #d2cece;
 	border-radius: 10px;
+	color: #00008B;
 	font-size: 31px;
 	text-align: center; 
 	width: 70%;
