@@ -21,16 +21,16 @@
 			</div>
 			<div class="school border">
 				<p>
-					<p class="grades">Grades 1-4</p>
-					<p>149 lyceum, 2013-2017, in Kharkov, Ukraine</p>
+					<p class="grades accordion">Grades 1-4</p>
+					<p class="panel">149 lyceum, 2013-2017, in Kharkov, Ukraine</p>
 				</p>
 				<p>
-					<p class="grades">Grades 5-8</p>
-					<p>Academic gymnasium number 45, 2017-2020, in Kharkov, Ukraine</p>
+					<p class="grades accordion">Grades 5-8</p>
+					<p class="panel">Academic gymnasium number 45, 2017-2020, in Kharkov, Ukraine</p>
 				</p>
 				<p>
-					<p class="grades">Grades hru</p>
-					<p>Hru hru hru, now, in Kharkov, Ukraine </p>
+					<p class="grades accordion">Grades hru</p>
+					<p class="panel">Hru hru hru, now, in Kharkov, Ukraine </p>
 				</p>
 			</div>
 			<div class="skills border">
@@ -72,5 +72,24 @@
 				</p>
 			</div>
 		</div>
+			<script>
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+				for (i = 0; i < acc.length; i++) {
+				  acc[i].addEventListener("click", function() {
+					/* Переключение между добавлением и удалением класса "active",
+					чтобы выделить кнопку, управляющую панелью */
+					this.classList.toggle("active");
+
+					/* Переключение между скрытием и отображением активной панели */
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+					  panel.style.display = "none";
+					} else {
+					  panel.style.display = "block";
+					}
+				  });
+				}
+	</script>
 	</body>
 </html>
